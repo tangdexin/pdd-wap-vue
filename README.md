@@ -4,6 +4,6 @@
 ## 本地启动
 ### npm run dev
 ## 生产打包
-### npm run dev
+### npm run build
 ## GIT 地址
 ### https://github.com/tangdexin/pdd-wap-vue.git
