@@ -8,8 +8,7 @@
 </template>
 <script>
 import http from "./utils/sn-axios"
-import host from "../config/host.js"
-
+import api from "../config/api.js"
 export default {
   data() {
     return {
@@ -22,7 +21,7 @@ export default {
   },
   methods: {
     getData:function(){
-      http.get('news/index').then(res => {
+      http.get('http://news/index').then(res => {
         console.log(res)
         this.nameList = res.articles
       })

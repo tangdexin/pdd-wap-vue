@@ -4,7 +4,6 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 console.log('开始编译dev')
-console.log('11111')
 module.exports = {
     mode: 'development',
     entry: path.join(__dirname, '../src/index.js'),
