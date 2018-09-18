@@ -4,7 +4,9 @@
     <div v-for="(item,key) in nameList" :key="key">
       <p>{{item.title}}</p>
     </div>
-    <home-index></home-index>
+    <router-link to="/home">Go to indexHome</router-link>
+    <router-link to="/cart">Go to indexCart</router-link>
+    <router-view></router-view>
   </div>
 </template>
 <script>

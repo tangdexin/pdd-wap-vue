@@ -12,12 +12,16 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
+    "axios-jsonp-pro": "^1.1.4",
     "express": "^4.16.3",
     "http-proxy": "^1.17.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "node-jsonp": "^1.0.2",
     "qs": "^6.5.2",
     "vue": "^2.5.16",
-    "less": "^3.8.1",
-    "less-loader": "^4.1.0"
+    "vue-jsonp": "^0.1.8",
+    "vue-router": "^3.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
